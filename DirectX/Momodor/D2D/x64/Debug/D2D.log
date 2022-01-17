@@ -1,0 +1,13 @@
+﻿  Scene.cpp
+d:\bht\2021_08\d2d_dxline\d2d\base\scene.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'framework.h': No such file or directory
+  SceneManager.cpp
+d:\bht\2021_08\d2d_dxline\d2d\base\scenemanager.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'framework.h': No such file or directory
+  S01_DXLine.cpp
+d:\bht\2021_08\d2d_dxline\d2d\lessson\s01_dxline.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'framework.h': No such file or directory
+  S02_DXTriangle.cpp
+d:\bht\2021_08\d2d_dxline\d2d\lessson\s02_dxtriangle.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'framework.h': No such file or directory
+  MainWindow.cpp
+d:\bht\2021_08\d2d_dxline\d2d\framework.h(37): fatal error C1083: 포함 파일을 열 수 없습니다. 'D3DX11.h': No such file or directory
+  Time.cpp
+d:\bht\2021_08\d2d_dxline\d2d\system\time.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'framework.h': No such file or directory
+  코드를 생성하고 있습니다...

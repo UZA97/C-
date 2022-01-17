@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{1addf03c-8139-4d4a-84ab-d174c9d0df77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{7308cfdc-d336-4628-b0a1-fdbe6299d120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson">
+      <UniqueIdentifier>{fbb192fb-2ee3-4aa9-8fe6-67702c9588fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{b34c8898-6464-4a37-9e1e-21d0df20c144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utiles">
+      <UniqueIdentifier>{0524ac8d-cf3c-458d-8a8a-b16102ac3f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{d22f9850-2853-4eb8-bc69-3cd9bd2a727d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{ec49dfbe-0356-4bd8-9fd6-3ab81c0ec923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{4f5be7ea-586b-481f-8ef9-3c80ec3f7b09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Time.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Scene.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SceneManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S03_DXRectangle.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S04_DXCircle.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S01_DXLine.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S02_DXTriangle.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shader.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Path.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Xml.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BinaryFile.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S05_DXEffect.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S06_WVPDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Rect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Camera.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S07_SnakeDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Snake.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\CloseScene.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Keyboard.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S08_DXTextureDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Texture.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S09_DXTextureClassDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S10_DXBackgroundDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Background.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Mouse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\AnimationClip.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Animation.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S11_DXAniamtionDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\GameObject.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Marco.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S12_DXRotationDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S13_DXCameraDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DirectWrite.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S14_DXAABBDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\Collider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fire.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Marker.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\EventZone.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\clipper.hpp">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S16_DXMouseDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Button.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CustomCursor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S18_DXFileDemo.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\M01_Momodora.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\M02_Momodora.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Line.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoMo.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoMoEffect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Time.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Scene.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\SceneManager.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S03_DXRectangle.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S04_DXCircle.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S01_DXLine.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S02_DXTriangle.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shader.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Path.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Xml.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BinaryFile.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S05_DXEffect.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S06_WVPDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Rect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Camera.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S07_SnakeDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Snake.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\CloseScene.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Keyboard.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S08_DXTextureDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Texture.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S09_DXTextureClassDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S10_DXBackgroundDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Background.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Mouse.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\AnimationClip.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Animation.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S11_DXAniamtionDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\GameObject.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Marco.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S12_DXRotationDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S13_DXCameraDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectWrite.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S14_DXAABBDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\Collider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fire.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Marker.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\EventZone.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\clipper.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S16_DXMouseDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Button.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CustomCursor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S18_DXFileDemo.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\M01_Momodora.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\M02_Momodora.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Line.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoMo.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoMoEffect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="D2D.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
